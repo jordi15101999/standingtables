@@ -1,0 +1,45 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87); 
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.tables {
+  margin-top: 20px;
+}
+
+.welcome {
+  height: 80vh;
+  background-image: url("/gg.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+.soccerball {
+  font-size: 3rem;
+}
+
+    /* Responsive layout - makes a one column layout instead of a two-column layout */
+    @media (max-width: 800px) {
+      .bungkus-card {
+        padding: 20px;
+      }
+      .text-card {
+        font-size: 1.6rem;
+      }
+            .soccerball {
+              font-size: 2rem;
+            }
+    }
