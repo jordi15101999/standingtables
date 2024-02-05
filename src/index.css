@@ -1,35 +1,56 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87); 
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+  font-family: 'Roboto', sans-serif !important;
 }
-
 
 .tables {
   margin-top: 20px;
 }
 
+.tables h3 {
+  color: white;
+}
+
 .welcome {
   height: 80vh;
-  background-image: url("/gg.jpg");
+  background-image: url("https://i.pinimg.com/originals/18/b8/83/18b883412cd109cfbbbc8e8be8c56b13.jpg");
   background-size: cover;
   background-position: center;
+  width: 100%;
 
 }
 
+.kiri {
+  height: 80vh;
+}
 
+.text-card {
+  text-shadow: 2px 2px black;
+}
+
+.gambar-hero {
+  width: 570px;
+  height: 400px;
+
+
+}
 
 .soccerball {
   font-size: 3rem;
 }
+
+.tabs-nav .nav-underline {
+      --bs-nav-underline-gap: 1rem;
+        --bs-nav-underline-border-width: 0.125rem;
+        --bs-nav-underline-link-active-color: white;
+        gap: gray;
+
+          --bs-nav-link-color: aqua;
+          --bs-nav-link-hover-color: white;
+  
+}
+
 
     /* Responsive layout - makes a one column layout instead of a two-column layout */
     @media (max-width: 800px) {
@@ -38,8 +59,18 @@
       }
       .text-card {
         font-size: 1.6rem;
+        text-shadow: 2px 2px black;
       }
-            .soccerball {
-              font-size: 2rem;
+      .soccerball {
+        font-size: 2rem;
+      }
+            .gambar-hero {
+              width: 420px;
+              height: 300px;
+
+      
             }
+                                               
+
     }
+

@@ -3,15 +3,15 @@ import Splash from "./components/Splash";
 
 function App() {
   return (
-    <>
+    <div className="bg-black">
       <NavigationBar />
       <Splash />
       <section className="mt-5">
-        <div className=" text-center py-5 bg-dark text-white mt-3">
-          <p>Copyright © 2023 Johannes Jordi </p>
+        <div className=" text-center py-4 bg-black text-white mt-3">
+          <p>Copyright © 2024 Johannes Jordi </p>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
